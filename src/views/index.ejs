@@ -1,0 +1,29 @@
+<!--
+Leaflet es la biblioteca JavaScript de código abierto líder para mapas interactivos 
+aptos para dispositivos móviles. Con un peso de aproximadamente 38 KB de JS , tiene 
+todas las características de mapeo que la mayoría de los desarrolladores necesitan.
+
+Leaflet está diseñado teniendo en cuenta la simplicidad , el rendimiento y la usabilidad. 
+Funciona de manera eficiente en todas las principales plataformas de escritorio y móviles,
+se puede ampliar con muchos complementos , tiene una API hermosa, fácil de usar y bien 
+documentada y un código fuente simple y legible al  que es un placer contribuir .
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>leaflet</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <div class="mapa" id="mapa"></div>
+
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script> <!-- Este archivo va ha permitirnos tener una variable global llamada L que contiene todas las funcionalidades de leaflet -->
+    <script src="/socket.io/socket.io.js"></script> <!-- Este archivo va ha permitirnos tener una variable global llamada io -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
